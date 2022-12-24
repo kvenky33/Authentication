@@ -1,0 +1,182 @@
+.signup-container {
+  width: auto;
+  height: 650px;
+  left: 0px;
+  top: 0px;
+
+  background: #000000;
+  margin-bottom: 0px;
+}
+.navbar {
+  box-sizing: border-box;
+
+  width: auto;
+  height: 87px;
+  left: 0px;
+  top: 0px;
+
+  background: #000000;
+  border-bottom: 2px solid #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-left {
+  width: 100px;
+  height: 25px;
+  margin-left: 20px;
+  top: 25px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 50px;
+  color: #ffffff;
+}
+.nav-right {
+  width: 100px;
+  height: 29px;
+  left: 0px;
+  top: 29px;
+  margin-right: 150px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #ffffff;
+  display: flex;
+}
+.signup-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.signup-body h1 {
+  width: 600px;
+  height: 144px;
+  left: 260px;
+  top: 233px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+
+  color: #ffffff;
+}
+.inputs {
+  width: 600px;
+  height: 29px;
+  left: 260px;
+  top: 357px;
+  margin: 10px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #ffffff;
+  background-color: #000000;
+  border-bottom: 1px solid #ffffff;
+  transform: rotate(-0.1deg);
+}
+.signup-btn {
+  width: 226px;
+  height: 58px;
+  top: 806px;
+  margin-left: 5px;
+  margin-top: 18px;
+
+  background: #ffffff;
+}
+#invalid {
+  color: red;
+  margin-left: 360px;
+  display: none;
+}
+#valid {
+  color: green;
+  margin-left: 360px;
+  display: none;
+  margin-top: 0px;
+}
+.profile-container {
+  width: auto;
+  height: 1117px;
+  left: 0px;
+
+  background: #000000;
+}
+.prf-heading {
+  width: 600px;
+  height: 144px;
+  left: 52px;
+  top: 176px;
+  padding: 5px 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+
+  color: #ffffff;
+}
+#username {
+  width: 600px;
+  height: 144px;
+  left: 52px;
+  top: 320px;
+  padding: 0px 40px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+
+  color: #ffffff;
+}
+#useremail {
+  width: 600px;
+  height: 144px;
+  left: 52px;
+  top: 438px;
+  padding: 0px 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+
+  color: #ffffff;
+}
+#userpassword {
+  width: 600px;
+  height: 144px;
+  left: 52px;
+  top: 559px;
+  padding: 0px 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+
+  color: #ffffff;
+}
+#logout-btn {
+  width: 226px;
+  height: 58px;
+  left: 52px;
+  top: 703px;
+  margin: 40px;
+  background: #ffffff;
+}

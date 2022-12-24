@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="profile-container">
+      <div class="navbar">
+        <h2 class="nav-left">Home</h2>
+        <div class="nav-right">
+          <h2 style="margin-right: 10px">SignUp</h2>
+          <h2>Profile</h2>
+        </div>
+      </div>
+      <h3 class="prf-heading">Profile</h3>
+      <h3 id="username">Full name :</h3>
+      <h3 id="useremail">Email :</h3>
+      <h3 id="userpassword">Password :</h3>
+      <button id="logout-btn" onclick="logout()">
+        <span style="color: black">Logout</span>
+      </button>
+    </div>
+    <script>
+      document.getElementById("username").innerHTML +=
+        localStorage.getItem("name");
+      document.getElementById("useremail").innerHTML +=
+        localStorage.getItem("email");
+      document.getElementById("userpassword").textContent +=
+        localStorage.getItem("password");
+
+      function logout() {
+        localStorage.removeItem("name");
+        localStorage.removeItem("email");
+        localStorage.removeItem("password");
+
+        window.location = "index.html";
+      }
+    </script>
+  </body>
+</html>

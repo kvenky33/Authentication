@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Authentication</title>
+  </head>
+  <body>
+    <div class="signup-container">
+      <div class="navbar">
+        <h2 class="nav-left">Home</h2>
+        <div class="nav-right">
+          <h2 style="margin-right: 10px">SignUp</h2>
+          <h2>Profile</h2>
+        </div>
+      </div>
+
+      <div class="signup-body">
+        <h1>Sign up</h1>
+        <form
+          action="profile.html"
+          style="display: flex; flex-direction: column"
+        >
+          <input
+            type="text"
+            name="fullname"
+            class="inputs"
+            id="fullname"
+            placeholder="Full Name"
+          />
+          <input
+            type="text"
+            name="email"
+            class="inputs"
+            id="email"
+            placeholder="Email"
+          />
+          <input
+            type="password"
+            name="password"
+            class="inputs"
+            id="password"
+            placeholder="Password"
+          />
+          <input
+            type="password"
+            name="confirmpassword"
+            class="inputs"
+            id="confirmpassword"
+            placeholder="Conform Password"
+          />
+          <input type="submit" class="signup-btn" onclick="signUp()" />
+        </form>
+      </div>
+      <p id="invalid">Error : All the fields are mandatory</p>
+      <p id="valid">Successfully Signed Up!</p>
+      <!-- <button class="signup-btn">
+        <span style="color: black" onclick="signUp()"> SignUp</span>
+      </button> -->
+    </div>
+    <!-- profile details -->
+    <!-- 
+    <div class="profile-container">
+      <h3 class="prf-heading">Profile</h3>
+      <h3 id="username">Full name :</h3>
+      <h3 id="useremail">Email :</h3>
+      <h3 id="userpassword">Password :</h3>
+      <button id="logout-btn"><span style="color: black">Logout</span></button>
+    </div> -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
